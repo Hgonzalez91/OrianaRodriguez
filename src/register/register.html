@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link href="https://fonts.cdnfonts.com/css/tw-cen-mt-std" rel="stylesheet">
+    <title>Oriana Rodriguez</title>
+</head>
+<body class="w-full flex flex-col items-center w-screen h-screen">
+    <div class="logo h-24 w-full flex items-center">
+        <a href=""><img class="h-16 m-12" src="../../resource/logo-black.png" alt=""></a>
+    </div>
+    <div class="container_inicio h-[80%] w-[50%] flex flex-col justify-center  items-center gap-20">
+        <form class="w-full flex flex-col items-center text-center gap-6" id="form">
+                <p class="text-5xl mb-12 font-bold">Registro</p>
+                <input  name="email" type="email" class="h-10 w-[50%] border-solid border-[1px] border-slate-500 rounded-[15px]" placeholder="   Correo electrónico" required/>
+                <input name="password" type="password" class="h-10 w-[50%] border-solid border-[1px] border-slate-500 rounded-[15px]" placeholder="   Contraseña" required/>
+                <button class="h-10 w-[50%] font-bold text-white bg-[#E9983E] rounded-[15px]">Iniciar sesion</button>
+                <p class=""><a href="/" class="font-bold text-sm">¿Olvidaste tu contraseña?</a></p>
+                <div class="flex items-center justify-center">
+                    <hr class="mr-1 w-28 flex items-center">
+                    <p class="text-slate-500 font-bold text-xs">ó inicia con</p>
+                    <hr class="w-28 ml-1">
+                </div>
+                <button type="submit" class="h-10 w-[50%] font-bold bg-slate-200 rounded-[15px]">Google</button>
+                <p class="text-cyan-500"><a href="../login/login.html" class="">¿Ya tienes una cuenta? Inicia sesion</a></p>
+        </form>
+    </div>
+    <script type="module" src="./js/apiFetch.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
